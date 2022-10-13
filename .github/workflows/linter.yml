@@ -25,4 +25,5 @@ jobs:
           github_token: ${{ secrets.github_token }}
           # Enable linters
           black: true
+          black_auto_fix: true
           flake8: true
