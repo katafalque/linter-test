@@ -1,7 +1,5 @@
 import json
 
-data = {
-    "name": "alperen"
-}
+data = {"name": "alperen"}
 
 print(json.dumps(data))
